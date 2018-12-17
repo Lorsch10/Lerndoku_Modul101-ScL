@@ -1,0 +1,102 @@
+h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'ZCOOL QingKe HuangYou';
+    display: flex;
+    justify-content: center;
+}
+.navi li {
+    display: inline;
+    padding: 16px 32px;
+    background-color: rgb(121, 38, 38);
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou';
+    margin: 12px;
+    
+
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou';
+    display: flex;
+    justify-content: center;
+}
+.uschrift {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou';
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.wie {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p {
+    text-align: left;
+    font-family: 'ZCOOL QingKe HuangYou';
+   
+}
+.p {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.navi li:hover {
+    color: rgb(35, 156, 71);
+}
+div :hover {
+    color: rgb(35, 156, 71);
+}
+body {
+    background: url(http://www.teamgraf.ch/view/2463p/42791/images/hintergrundBild2.jpg);
+    background-size: cover;
+}
+#wnet {
+    text-decoration: none;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#gs {
+    text-decoration: underline;
+    text-decoration-color: rgb(35, 156, 71);
+}
+#wie {
+    font-size: 16px;
+    font-weight: 0;
+}
+ol li {
+    padding: 0;
+    background: transparent;
+    font-size: 22px;
+}
+@media (max-width: 768px ) {
+    .navi li {
+        display: block;
+        padding: 16px cover;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+    h2 {
+        margin: 50px auto;
+    }
+}
