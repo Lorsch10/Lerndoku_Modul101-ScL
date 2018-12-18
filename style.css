@@ -5,16 +5,17 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
 .navi li {
     display: inline;
-    padding: 16px 32px;
+    padding: 16px 75px;
     background-color: rgb(121, 38, 38);
     color: white;
     font-family: 'ZCOOL QingKe HuangYou';
     margin: 12px;
-    
-
+    font-size: 26px;
 }
+
 h2 {
     font-size: 36px;
     font-weight: bold;
@@ -22,6 +23,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
 .uschrift {
     font-size: 26px;
     font-weight: bold;
@@ -31,6 +33,7 @@ h2 {
     text-decoration: none;
     color: black;
 }
+
 .wie {
     font-size: 26px;
     font-weight: bold;
@@ -39,58 +42,102 @@ h2 {
     justify-content: center;
     text-align: center;
 }
+
 p {
     text-align: left;
     font-family: 'ZCOOL QingKe HuangYou';
-   
+    font-size: 19px;
 }
+
+#lee {
+    float: right;
+    margin: 50px 0 0 0;
+}
+
 .p {
     display: flex;
     justify-content: center;
 }
+
 nav {
     display: flex;
     justify-content: center;
 }
+
 .navi li:hover {
     color: rgb(35, 156, 71);
 }
+
+
 div :hover {
     color: rgb(35, 156, 71);
 }
+
+.p :hover {
+    color: black;
+}
+
+.navi a {
+    color: white;
+}
+
+.navi a:hover {
+    color: rgb(35, 156, 71)
+}
+
+li :hover {
+    color: rgb(35, 156, 71);
+}
+
 body {
     background: url(http://www.teamgraf.ch/view/2463p/42791/images/hintergrundBild2.jpg);
     background-size: cover;
 }
+
 #wnet {
     text-decoration: none;
     color: black;
 }
+
+#gs:hover {
+    color: rgb(35, 156, 71);
+    font-size: 20px;
+    text-decoration-color: black;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
+
 nav a {
     text-decoration: none;
     color: black;
 }
+
 #gs {
     text-decoration: underline;
     text-decoration-color: rgb(35, 156, 71);
 }
-#wie {
-    font-size: 16px;
-    font-weight: 0;
+
+.üs {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(35, 156, 71);
+    display: flex;
+    justify-content: center;
 }
+
 ol li {
     padding: 0;
     background: transparent;
     font-size: 22px;
 }
-@media (max-width: 768px ) {
+
+@media (max-width: 1000px) {
     .navi li {
         display: block;
-        padding: 16px cover;
+        padding: 16px;
     }
     nav {
         display: flex;
