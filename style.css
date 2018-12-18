@@ -57,6 +57,9 @@ p {
 .p {
     display: flex;
     justify-content: center;
+    text-align: left;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 19px;
 }
 
 nav {
@@ -67,7 +70,6 @@ nav {
 .navi li:hover {
     color: rgb(35, 156, 71);
 }
-
 
 div :hover {
     color: rgb(35, 156, 71);
@@ -94,7 +96,7 @@ body {
     background-size: cover;
 }
 
-#wnet {
+#net {
     text-decoration: none;
     color: black;
 }
@@ -104,13 +106,15 @@ body {
     font-size: 20px;
     text-decoration-color: black;
 }
-
-a {
-    text-decoration: none;
-    color: black;
+#ele {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    margin: 20px 0;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: black;
 }
@@ -134,14 +138,11 @@ ol li {
     font-size: 22px;
 }
 
+
 @media (max-width: 1000px) {
     .navi li {
         display: block;
         padding: 16px;
-    }
-    nav {
-        display: flex;
-        justify-content: flex-start;
     }
     h2 {
         margin: 50px auto;
