@@ -33,6 +33,11 @@ h2 {
     text-decoration: none;
     color: black;
 }
+#gf {
+    width: auto;
+    height: 80px;
+  
+}
 
 .wie {
     font-size: 26px;
@@ -97,10 +102,6 @@ body {
     margin: 0;
 }
 
-#net {
-
-}
-
 #gs:hover {
     color: rgb(35, 156, 71);
     font-size: 20px;
@@ -155,9 +156,14 @@ ol li {
     background: transparent;
     font-size: 22px;
 }
+dt {
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
 
 
-@media (max-width: 1455px) {
+@media (max-width: 1604px) {
     .navi li {
         display: block;
         padding: 16px;
