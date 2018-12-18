@@ -94,11 +94,11 @@ li :hover {
 body {
     background: url(http://www.teamgraf.ch/view/2463p/42791/images/hintergrundBild2.jpg);
     background-size: cover;
+    margin: 0;
 }
 
 #net {
-    text-decoration: none;
-    color: black;
+
 }
 
 #gs:hover {
@@ -131,7 +131,25 @@ a {
     display: flex;
     justify-content: center;
 }
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    background: url(http://www.gasserbaumaterialien.ch/wp-content/uploads/2013/10/Rio-Palisander_dunkel_Holz.jpg);
+}
 
+h2 {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    margin: 0px 0;
+}
+
+main {
+    padding: 125px 0;
+}
 ol li {
     padding: 0;
     background: transparent;
@@ -139,7 +157,7 @@ ol li {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1455px) {
     .navi li {
         display: block;
         padding: 16px;
