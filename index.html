@@ -66,9 +66,9 @@
                     <li><a href="#ewu">Die Entwicklungsumgebung</a></li>
                     <li><a href="#htmlE">Die HTML-Elemente</a></li>
                     <li><a href="#text">Das Textelement</a></li>
-                    <li><a href="#maku">Markup</a></li>
                     <li><a href="#list">Das Listenelement</a></li>
                     <li><a href="#form">Das Formelement</a></li>
+                    <li><a href="#maku">Markup</a></li>
                     <li><a href="#flsh">Das Flash-, Audio- und Videoelement</a></li>
                     <li><a href="#pic">Das Bildelement</a></li>
                     <li><a href="#link">Das Linkelement</a></li>
@@ -98,63 +98,74 @@
                 <dd>Um grosse Websites betreiben zu können, muss man Platz auf Webservern mieten.<br />
                     In unserem Fall reicht der kostenlose XAMPP-Webserver</dd><br />
                 <dt>Development Tools</dt><br />
-                <dd>Hier verwenden wir meist, das im Browser inbegriffene Developer Tool des Chrome-Browser. Dies kann
-                    man
-                    per F12 öffnen.</dd>
+                <dd>Hier verwenden wir meist, das inbegriffene Developer Tool des Chrome-Browsers. Dies kann man per
+                    F12 öffnen.</dd>
 
             </dl>
             </nav>
 
         </div>
         <<h3 class="üs" id="htmlE">Die HTML-Elemente</h3>
-        <div class="p">
-            <p>
-                Auf dem Folgenden Bild sehen sie eine Abbildung eines HTML-Elementes und dessen Aufbau.<br />
-                <img id="ele" src="https://www.html-seminar.de/bilder/html-befehl-aufbau-attribute.jpg" alt="Aufbau HTML-Element">
-                Dieses Bild zeigt ein sogenannt leeres Element. Es ist ein leeres Element, weil es keinen Inhalt hat.
-                Ein normales Element ist so aufgebaut:<br /><br />
-                &lt;a href="https://lorsch10.github.io/Lerndoku_Modul101-ScL/"&gt;Lerndoku ScL&lt;/a&gt;<br /><br />
-                In diesem Fall hätte ich nun einen Link in Form des Inhalts &bdquo; Lerndoku ScL&ldquo;. Das bedeutet,<br />
-                wenn jemand auf diesen Link klickt, wird er sofort auf die Webseite meiner Dokumentation
-                weitergeleitet,<br />
-                da ich als Link, der Link ist in den Gänsefüsschen bei href angegeben, den Link meiner Webseite auf der
-                ich die Doku schreibe angegeben habe.<br />
-                Wie man sieht besteht ein HTML-Element aus dem Start-Tag. Danach folgt das Attribut das in Name un Wert
-                aufgeteilt ist. href z. B. ist ein Name,<br />
-                der Websitelink ist der Wert. Nach dem Attribut kommt der Inhalt. Oben wäre das also Lerndoku ScL. Zum
-                schluss kommt noch der End hin.<br />
-                Die Tags unterscheiden sich nur durch ein Slash. Der Slash wird beim End-Tag nach der kleiner
-                als-Klammer vor den Wert des Tags gesetzt.
-            </p>
-        </div>
-        <h3 class="üs" id="text">Das Textelement</h3>
-        <div class="p">
-            <p>Es gibt verschiedene arten von Textelementen.</p>
-        </div>
-        <div class="p">
-            <dl>
-                <dt>h1, h2, h3 usw.</dt><br />
-                <dd>h sind Überschriften, wobei h1 die Hauptüberschrift ist.</dd><br />
-                <dt>p</dt><br />
-                <dd>p steht für paragraph was soviel wie Abschnitt bedeutet. Im p wird der grösste Teil des normalen Textes geschrieben.</dd><br />
-                <dt>a</dt><br />
-                <dd>a verwandelt das geschriebene in einen Link. Weiter beschrieben wird dies im Abschnitt Linkelement. Dies passiert innerhalb eines p-Elements.</dd><br />
-                <dt>b und strong</dt><br />
-                <dd>b und strong schreiben alles im Abschnitt Fett. Es empfhielt sich aber, formatierungen im CSS zu machen. Dies passiert innerhalb eines p-Elements.</dd><br />
-                <dt>i und em</dt><br />
-                <dd>i und em schreiben alles im Abschnitt kursiv. Auch das sollte man lieber im CSS machen. Dies passiert innerhalb eines p-Elements.</dd><br />
-                <dt>sup und sub</dt><br />
-                <dd>sup schreibt alles im Abschnitt hochgestellt, sub alles tiefgestellt. Dies passiert innerhalb eines p-Elements.</dd><br />
-                <dt>s und del</dt><br />
-                <dd>s und del lassen den markierten Abschnitt in der Mitte durchstreichen (horinzontal). Auch hier ist CSS empfehlenswert.</dd><br />
-                <dt>ins</dt><br />
-                <dd>ins lässt alles in seinem Abschnitt unterstreichen. Dies sollte man besser auch im CSS machen. wie alle diese Sachen im CSS gehen, wird im Kapitel CSS beschrieben.</dd><br />
-            </dl>
-        </div>
-        <footer>
-            <img id="gf" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Markenzeichen_GF_2.svg/1200px-Markenzeichen_GF_2.svg.png"
-                alt="GF Logo">
-        </footer>
+            <div class="p">
+                <p>
+                    Auf dem Folgenden Bild sehen sie eine Abbildung eines HTML-Elementes und dessen Aufbau.<br />
+                    <img id="ele" src="https://www.html-seminar.de/bilder/html-befehl-aufbau-attribute.jpg" alt="Aufbau HTML-Element">
+                    Dieses Bild zeigt ein sogenannt leeres Element. Es ist ein leeres Element, weil es keinen Inhalt
+                    hat.
+                    Ein normales Element ist so aufgebaut:<br /><br />
+                    &lt;a href="https://lorsch10.github.io/Lerndoku_Modul101-ScL/"&gt;Lerndoku ScL&lt;/a&gt;<br /><br />
+                    In diesem Fall hätte ich nun einen Link in Form des Inhalts &bdquo; Lerndoku ScL&ldquo;. Das
+                    bedeutet,<br />
+                    wenn jemand auf diesen Link klickt, wird er sofort auf die Webseite meiner Dokumentation
+                    weitergeleitet,<br />
+                    da ich als Link, der Link ist in den Gänsefüsschen bei href angegeben, den Link meiner Webseite auf
+                    der
+                    ich die Doku schreibe angegeben habe.<br />
+                    Wie man sieht besteht ein HTML-Element aus dem Start-Tag. Danach folgt das Attribut das in Name un
+                    Wert
+                    aufgeteilt ist. href z. B. ist ein Name,<br />
+                    der Websitelink ist der Wert. Nach dem Attribut kommt der Inhalt. Oben wäre das also Lerndoku ScL.
+                    Zum
+                    schluss kommt noch der End hin.<br />
+                    Die Tags unterscheiden sich nur durch ein Slash. Der Slash wird beim End-Tag nach der kleiner
+                    als-Klammer vor den Wert des Tags gesetzt.
+                </p>
+            </div>
+            <h3 class="üs" id="text">Das Textelement</h3>
+            <div class="p">
+                <p>Es gibt verschiedene arten von Textelementen.</p>
+            </div>
+            <div class="p">
+                <dl>
+                    <dt>h1, h2, h3 usw.</dt><br />
+                    <dd>h sind Überschriften, wobei h1 die Hauptüberschrift ist.</dd><br />
+                    <dt>p</dt><br />
+                    <dd>p steht für paragraph was soviel wie Abschnitt bedeutet. Im p wird der grösste Teil des
+                        normalen Textes geschrieben.</dd><br />
+                    <dt>a</dt><br />
+                    <dd>a verwandelt das geschriebene in einen Link. Weiter beschrieben wird dies im Abschnitt
+                        Linkelement. Dies passiert innerhalb eines p-Elements.</dd><br />
+                    <dt>b und strong</dt><br />
+                    <dd>b und strong schreiben alles im Abschnitt Fett. Es empfhielt sich aber, formatierungen im CSS
+                        zu machen. Dies passiert innerhalb eines p-Elements.</dd><br />
+                    <dt>i und em</dt><br />
+                    <dd>i und em schreiben alles im Abschnitt kursiv. Auch das sollte man lieber im CSS machen. Dies
+                        passiert innerhalb eines p-Elements.</dd><br />
+                    <dt>sup und sub</dt><br />
+                    <dd>sup schreibt alles im Abschnitt hochgestellt, sub alles tiefgestellt. Dies passiert innerhalb
+                        eines p-Elements.</dd><br />
+                    <dt>s und del</dt><br />
+                    <dd>s und del lassen den markierten Abschnitt in der Mitte durchstreichen (horinzontal). Auch hier
+                        ist CSS empfehlenswert.</dd><br />
+                    <dt>ins</dt><br />
+                    <dd>ins lässt alles in seinem Abschnitt unterstreichen. Dies sollte man besser auch im CSS machen.
+                        wie alle diese Sachen im CSS gehen, wird im Kapitel CSS beschrieben.</dd><br />
+                </dl>
+            </div>
+            <footer>
+                <img id="gf" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Markenzeichen_GF_2.svg/1200px-Markenzeichen_GF_2.svg.png"
+                    alt="GF Logo">
+            </footer>
     </main>
 
 </body>
