@@ -2,7 +2,6 @@ h1 {
     font-size: 45px;
     font-weight: bolder;
     font-family: 'ZCOOL QingKe HuangYou';
-    
 }
 
 .navi li {
@@ -61,13 +60,6 @@ p {
     margin: 50px 0 0 0;
 }
 
-.p {
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    font-family: 'ZCOOL QingKe HuangYou';
-    font-size: 19px;
-}
 pics {
     display: flex;
     justify-content: center;
@@ -76,6 +68,8 @@ pics {
 nav {
     display: flex;
     justify-content: center;
+    color: rgb(35, 156, 71);
+    font-size: 36px;
 }
 
 .navi li:hover {
@@ -93,7 +87,6 @@ div :hover {
 .navi a {
     color: white;
 }
-
 
 .navi a:hover {
     color: rgb(35, 156, 71)
@@ -122,9 +115,9 @@ body {
     width: auto;
     margin: 20px 0;
 }
+
 div #bagger {
     text-align: left;
-    
 }
 
 a {
@@ -146,10 +139,12 @@ a {
 
 h3 {
     padding-top: 125px;
+    color: rgb(35, 156, 71);
+    font-size: 36px;
 }
 
 footer {
-margin: 0;
+    margin: 0;
 }
 
 header {
@@ -164,7 +159,13 @@ header {
 
 main {
     padding-top: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 19px;
 }
+
 #ado {
     z-index: 3;
 }
@@ -184,9 +185,11 @@ dt {
 dt, dd {
     margin: 9px;
 }
+
 #flx a {
     text-decoration: underline;
 }
+
 #flx a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(35, 156, 71);
