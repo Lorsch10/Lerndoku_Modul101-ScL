@@ -160,6 +160,9 @@ dt {
     text-decoration: underline;
     
 }
+dt, dd {
+    margin: 9px;
+}
 
 
 @media (max-width: 1604px) {
