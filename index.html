@@ -53,7 +53,7 @@
                 Das Internet bekommt von Tag zu Tag mehr Benutzer und ist heute die Lösung für alles.<br />
                 Ob Videos schauen, Videochatten, Musik hören, Mails schreiben oder recherchieren uvm.
                 <img id="lee" src="http://cds.cern.ch/record/704594/files/na-2004-005_0312116_01.JPG" alt="Foto von www-Erfinder">
-                <br /><br /><a id="gs" href="https://www.abipur.de/referate/stat/650501569.html">Geschichte des
+                <br /><br /><a class="gs" href="https://www.abipur.de/referate/stat/650501569.html">Geschichte des
                     Internets
                     ausführlich erklärt</a>
             </p>
@@ -281,25 +281,87 @@
 
                 <dt>type="email"</dt>
                 <dd>Hierdurch wird ein Emaileingabefeld erstellt, dass von HTML5-Browsern nach Format geprüft wird.<br />
-                     Einige Handys passen auch die Touchtatur an.</dd>
+                    Einige Handys passen auch die Touchtatur an.</dd>
 
                 <dt>type="url"</dt>
                 <dd>Hierdurch wird ein URL-Eingabefeld erstellt, dass von HTML5-Browsern nach Format geprüft wird.<br />
                     Einige Handys passen auch die Touchtatur an.</dd>
 
                 <dt>type="search"</dt>
-                <dd>search wird innerhalb von input verwendet. Es erstellt ein Suchfeld. Neue Browser wie Safari weisen Merkmale auf,<br />
-                     die die Bedienung vereinfachen. Z. B. ein X um den Suchinhlat zu löschen.</dd>
-                
+                <dd>search wird innerhalb von input verwendet. Es erstellt ein Suchfeld. Neue Browser wie Safari weisen
+                    Merkmale auf,<br />
+                    die die Bedienung vereinfachen. Z. B. ein X um den Suchinhalt zu löschen.</dd>
+
                 <dt>placeholder</dt>
                 <dd>Der Placeholder zeigt einen Text im Suchfeld an, bis in das Suchfeld geklickt wird.</dd>
 
             </dl>
-        </div
-        <footer>
-            <img id="gf" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Markenzeichen_GF_2.svg/1200px-Markenzeichen_GF_2.svg.png"
-                alt="GF Logo">
-        </footer>
+        </div>
+        <h3 class="üs" id="maku">Besonderes Markup</h3>
+        <div class="p">
+            <p>Das erste Was ich zu diesem Thema anspreche, sind die verschieden HTML-Versionen. Die neuste beginnt in
+                der 1. Zeile mit <q> !DOCTYPE html</q><br />
+                Genaueres findet ihr hier: <br /><br /><a class="gs" href="https://wiki.selfhtml.org/wiki/HTML/Unterschiede_von_HTML_zu_XHTML">
+                    HTML-Versionen Infowebsite</a><br /><br />
+
+                Weiter gehts es mit Kommentaren. Kommentare sind Texte die zwischen eine Bestimmte Reihenfolge von
+                Zeichen stehen. Diese Lautet wie folgt:<br />
+                &lt;!--Text--&gt;<br />
+                Anstelle von Text kann am selben Ort jedes Beliebige Wort oder jeder beliebige Satz stehen.<br /><br />
+
+                id und Class sind zwei sehr wichtige Attribute. Mit id kann man ein Element so beschriften, dass man es
+                im CSS alleine bearbeiten kann.<br />
+                Das bedeutet, wenn ich einem p eine id <q> p1</q> gebe, und ich nur dieses p und nicht alle anderen p's
+                auch noch ändern möchte, muss ich p1 benutzen.<br />
+                Class macht das gleiche. Es gibt aber einige Unterscheide. Ersteinmal muss gesagt sein, dass id die
+                grössere Priorität besitzt als class. <br />
+                Dazu kann id nur ein einziges Element auswählen, class kann beliebig viele. Der letzte Unterscheid ist
+                das ansprechen.<br />
+                Dies ist wichtig für Links, wie z. B. die ol-Liste anfänglich des Kapitel HTML. Noch wichtiger ist es
+                aber fürs CSS.<br />
+                id wird mit einem #Hashtag angesprochen, class mit einem .Punkt.<br /><br />
+
+                Wir kommen zu den Inline- und Blockelementen. Blockelemente beginnen bei der Anzeige im Browserfenster
+                immer in einer neuen Zeile.<br />
+                Inline-Elemente stehen in derselben Zeile wie ihre Nachbarelemente. Beispiele zu Blockelementen sind:
+                h1,h2... p, ul, li.<br />
+                Wie vielleicht bemerkt sind dies alles Textelemente, in dem Sinn, dass zwischen ihren Tags Wörter,
+                Sätze und Texte geschrieben werden.<br />
+                Beispiele zu Inline-Elementen sind: a, b, em und img. Diese sind als <q> Deko</q> zu gebrauchen. a ist
+                ein Link, b und em verändern die Schrift,<br />
+                und img fügt Bilder ein.<br /><br />
+
+                DIV ist ein Gruppierungselement, dass sehr oft verwendet wird. mit div kann man Abschnitte markieren
+                und wenn man ihnen noch id oder class gibt,<br />
+                kann man diese Abschnitte auch im CSS Formatieren.<br /><br />
+
+            </p>
+
+        </div>
+        <h3 class="üs" id="flsh">Das Flash-, Audio- und Videoelement</h3>
+        <div class="p">
+            <p>Wie macht bettet man ein Video auf einer Website ein, So das es ein Titelbild und ein Menu hat. Hier
+                folgt ein Link:<br /><br />
+                &lt;video src="video.mp4" poster="Thumbnail.jpg" width="350px" height="220px"
+                controls&gt;&lt;/video&gt;<br /><br />
+                Dies ist der link um ein Video mit der obigen Beschreibung einzubinden. Bei video und Thumbnail müssen
+                natürlich noch die Weblinks hin.<br /><br />
+                um Eine Audio-Datei einzufügen benötigt man folgenden Link:<br /><br />
+                &lt;audio src="link.mp3" controls&gt;&lt;/audio&gt;<br /><br />
+                Um zwei verschiedene Audioquellen zu verbinden benötigt man source.Link:<br /><br />
+                &lt;audio controls>
+                &lt;source src="link.mp3" />
+                &lt;source src="link.ogg" />
+                &lt;/audio><br /><br />
+                Eine Audiodatei auf einer HTML5-Website sieht so aus:<br /><br />
+                <audio src="link.mp3" controls></audio><br /><br />
+                Diese Audiodatei hier ist natürlich nicht funktionstüchtig, da ich den 1. Link verwendet habe und da
+                kein richtiger Link steht.
+            </p>
+        </div>
+        <h3 class="üs" id="pic">Das Bildelement</h3>
+        <div class="p">
+
     </main>
 
 </body>
