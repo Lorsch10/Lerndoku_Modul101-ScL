@@ -182,28 +182,120 @@
             <dl>
                 <dt>form</dt>
                 <dd>form ist das Grundelement, dass alle weiteren Formatierungselemente umschliesst.</dd>
+
                 <dt>action</dt>
                 <dd>Jedes form-Element muss das Attribut action beinhalten. action hat den Wert der Website, wo
                     die Auswertungen dann hingeschickt werden sollen.</dd>
+
                 <dt>method</dt>
                 <dd>method bietet zwei Varianten zum versenden der Formulare. get und post. get ist für kurze
                     und post für lange Formulare. Mehr dazu auf S.156 im Buch.</dd>
+
                 <dt>id</dt>
                 <dd>id wird grundätzlich dafür verwendet, um zu schauen ob alle Pflichtfelder ausgefüllt
                     wurden.</dd>
+
                 <dt>Input</dt>
                 <dd>Input erstellt verschiedene Forularsteuerelemente. Die wichtigsten folgen unmittelbar unter</dd>
+
                 <dt>type="text"</dt>
                 <dd>Dies erstellt ein einzelliges Textfeld.</dd>
+
                 <dt>name</dt>
-                <dd>name gib den Typ an,der in das formular eingegeben wird. Z. B. username.</dd>
+                <dd>name gib den Typ an,der in das formular eingegeben wird. Z. B. username oder password.</dd>
+
                 <dt>maxlength</dt>
                 <dd>maxlength gib die maximallänge der Anzahl Zeichen im Eingabefeld an. Als Beispiel:
                     Jahrgang= max. 4 Zeichen.</dd>
-                <dt>type="passwort"</dt>
-                <dd></dd>
+
+                <dt>type="password"</dt>
+                <dd>Es verhält sich wie type="text", nur wird der eingegebene Text nicht angezeigt.</dd>
+
+                <dt>textarea</dt>
+                <dd>Mit textarea wird ein mehrzeiliges Texteingabefeld generiert. Diese werden vorallem für Kommentare
+                    oder Bemerkungen verwendet.</dd>
+
+                <dt>type="radio"</dt>
+                <dd>Dies wird für eine Auswahl verwendet, bei der man auf den Kreis des auzuwählenden Objektes klickt
+                    und es sich mit einem Punkt im Kreis erweitert.</dd>
+
+                <dt>value</dt>
+                <dd>value enthält den Wert, der für die ausgewählte Option an den Server gesendet wird.<br />
+                    Bei submit wird value für die angabe des Textes auf dem Button verwendet.</dd>
+
+                <dt>checked</dt>
+                <dd>Mit checked können sie eine Vorauswahl festlegen, falls sie das wollen.</dd>
+
+                <dt>type="checkbox"</dt>
+                <dd>Mit checkbox wird ähnlich wie bei radio eine Auswahl erstellt.<br />
+                    Hier sind es aber Kästchen und sie werden mit einem Haken makiert, wenn drauf geklickt wurde.</dd>
+
+                <dt>select</dt>
+                <dd>Mit select werden Auswahl-Dropdownlisten erstellt. Ein select-Element muss mindestens zwei
+                    option-Elemente enthalten.</dd>
+
+                <dt>option</dt>
+                <dd>zwischen option-start- Endtag steht die Auswahl, die man im Dropdownmenü dann zur verfügung hat.<br />
+                    Dies muss aber für jede Auswahlmöglichkeit einzeln gemacht werden.</dd>
+
+                <dt>selected</dt>
+                <dd>funktioniert wie checked. Man legt mit selected nämlich die Vorauswahl fest.</dd>
+
+                <dt>multiple</dt>
+                <dd>wen man multiple den Wert multiple gibt, wird dem Benutzer eine Mehrfachauswahl ermöglicht.</dd>
+
+                <dt>input</dt>
+                <dd>input ermöglicht dem Benutzer, Dateien über den Input-Link hochzuladen, der meist als Button
+                    dargestellt wird.</dd>
+
+                <dt>type="submit"</dt>
+                <dd>Hiermit wird ein Knopf erstellt. Dieser Button wird dann mit value beschriftet. Beispiele dafür
+                    sind: Senden oder Registrieren</dd>
+
+                <dt>type="image"</dt>
+                <dd>Wird unter dem Element input verwendet. Mit image können sie der Schaltfläche ein Bild als
+                    Hintergrung geben.</dd>
+
+                <dt>button</dt>
+                <dd>wird auch für Schaltflächen verwendet. Der Vorteil an Button ist grössere Kontrolle.</dd>
+
+                <dt>type="hidden"</dt>
+                <dd>Erstellt ein verborgenes Formular, d.h für Benutzer nicht sichtbar. Der Autor kann mit dem Formular
+                    aber Werte hinzufügen.<br />
+                    Als Beispiel kann er sich anzeigen lassen, von welcher Seite der User das Formular abgeschickt hat.</dd>
+
+                <dt>label</dt>
+                <dd>label wird innerhalb von fieldset gesetzt. label fügt den beschreibenden Text vor die Textfläche.</dd>
+
+                <dt>fieldset</dt>
+                <dd>Hier werden Gruppen zusammengehöriger Steuerelemente zusammengefasst. Dies ist nützlich im umgang
+                    mit Formularen.<br />
+                    Meist werden Linien um den Inhalt eines Fieldsets gemacht, so ist der Zusammenhang der Elemente
+                    besser erkennbar.</dd>
+
+                <dt>legend</dt>
+                <dd>gibt dem fieldset-Element und seinem Inhalt eine Überschrift.</dd>
+
+                <dt>type="date"</dt>
+                <dd>mit type="date" zeigen HTML5 Browser ein Datumseingabefeld an.</dd>
+
+                <dt>type="email"</dt>
+                <dd>Hierdurch wird ein Emaileingabefeld erstellt, dass von HTML5-Browsern nach Format geprüft wird.<br />
+                     Einige Handys passen auch die Touchtatur an.</dd>
+
+                <dt>type="url"</dt>
+                <dd>Hierdurch wird ein URL-Eingabefeld erstellt, dass von HTML5-Browsern nach Format geprüft wird.<br />
+                    Einige Handys passen auch die Touchtatur an.</dd>
+
+                <dt>type="search"</dt>
+                <dd>search wird innerhalb von input verwendet. Es erstellt ein Suchfeld. Neue Browser wie Safari weisen Merkmale auf,<br />
+                     die die Bedienung vereinfachen. Z. B. ein X um den Suchinhlat zu löschen.</dd>
+                
+                <dt>placeholder</dt>
+                <dd>Der Placeholder zeigt einen Text im Suchfeld an, bis in das Suchfeld geklickt wird.</dd>
+
             </dl>
-        </div>
+        </div
         <footer>
             <img id="gf" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Markenzeichen_GF_2.svg/1200px-Markenzeichen_GF_2.svg.png"
                 alt="GF Logo">
