@@ -159,10 +159,14 @@ header {
     padding: 0;
     width: 100%;
     background: rgb(35, 156, 71);
+    z-index: 5;
 }
 
 main {
     padding-top: 125px;
+}
+#ado {
+    z-index: 3;
 }
 
 ol li {
