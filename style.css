@@ -13,6 +13,9 @@ h1 {
     margin: 12px;
     font-size: 26px;
 }
+.navi li:hover{
+    background-color: black;
+}
 
 h2 {
     font-size: 36px;
@@ -80,7 +83,7 @@ div :hover {
     color: rgb(35, 156, 71);
 }
 
-.p :hover {
+.p:hover {
     color: black;
 }
 
@@ -107,17 +110,27 @@ body {
     text-decoration-color: rgb(35, 156, 71);
     font-size: 20px;
 }
-
+tr {
+    background-color: lightgreen;
+}
+td {
+    border: 3px solid black; 
+}
+th {
+    border: 3px solid black;
+}
+table:hover{
+ color: black;
+}
+table {
+    border-collapse: collapse;
+}
 #ele {
     display: flex;
     justify-content: center;
     height: 300px;
     width: auto;
     margin: 20px 0;
-}
-
-div #bagger {
-    text-align: left;
 }
 
 a {
@@ -165,6 +178,13 @@ main {
     font-family: 'ZCOOL QingKe HuangYou';
     font-size: 19px;
 }
+#lnk a {
+    display: flex;
+    justify-content: center;
+}
+#lnk p:hover{
+    color: black;
+}
 
 #ado {
     z-index: 3;
@@ -174,6 +194,10 @@ ol li {
     padding: 0;
     background: transparent;
     font-size: 22px;
+}
+#hidl {
+    color: blue;
+    text-decoration: underline;
 }
 
 dt {
@@ -195,8 +219,11 @@ dt, dd {
     text-decoration-color: rgb(35, 156, 71);
     font-size: 20px;
 }
+#fx:hover {
+    color: black;
+}
 
-@media (max-width: 1604px) {
+@media (max-width: 1550px) {
     .navi li {
         display: block;
         padding: 16px;
