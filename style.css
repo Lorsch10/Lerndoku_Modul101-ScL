@@ -6,7 +6,7 @@ h1 {
 
 .navi li {
     display: inline;
-    padding: 26px 85px;
+    padding: 20px 60px;
     background-color: rgb(121, 38, 38);
     color: white;
     font-family: 'ZCOOL QingKe HuangYou';
@@ -41,6 +41,9 @@ h2 {
 #gf {
     width: auto;
     height: 80px;
+}
+#cs {
+    margin-top: 22px;
 }
 
 .wie {
@@ -100,8 +103,8 @@ li :hover {
 }
 
 body {
-    background: url(http://www.teamgraf.ch/view/2463p/42791/images/hintergrundBild2.jpg);
-    background-size: 100%;
+    background: url(https://cdn.pixabay.com/photo/2014/01/23/21/33/blue-250770__340.jpg);
+    background-size: cover;
     margin: 0;
 }
 
@@ -177,6 +180,8 @@ main {
     flex-direction: column;
     font-family: 'ZCOOL QingKe HuangYou';
     font-size: 19px;
+    padding-bottom: 25px;
+    background-color:rgba(168, 148, 148, 0.336);
 }
 #lnk a {
     display: flex;
@@ -195,7 +200,7 @@ ol li {
     background: transparent;
     font-size: 22px;
 }
-#hidl {
+.hidl {
     color: blue;
     text-decoration: underline;
 }
@@ -209,7 +214,11 @@ dt {
 dt, dd {
     margin: 9px;
 }
-
+#schrift1 {
+    width: 638px;
+    height: auto;
+    padding-top: 5px;
+}
 #flx a {
     text-decoration: underline;
 }
@@ -223,11 +232,9 @@ dt, dd {
     color: black;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1572px) {
     .navi li {
-        display: block;
-        padding: 16px;
-        text-align: left;
+        padding: 10px 38px;
     }
     h2, h3 {
         padding-top: 450px;
@@ -237,9 +244,19 @@ dt, dd {
         flex-direction: column;
     }
     h1 {
-        text-align: right;
+        display: flex;
+        justify-content: center;
     }
     main {
         padding-top: 275px;
+    }
+}
+@media (max-width: 883px) {
+    .navi li {
+        display: block;
+        padding: 6px 28px;
+    }
+    h1 {
+        font-size: 28px;
     }
 }

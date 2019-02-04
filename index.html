@@ -20,8 +20,8 @@
                     <li><a href="#net">Internet</a></li>
                     <li><a href="#html">HTML</a></li>
                     <li><a href="#css">CSS</a></li>
+                    <li><a href="#prxs">Praxis</a></li>
                     <li><a href="#gsar">Glossar</a></li>
-                    <li>Praxis</li>
                 </ul>
             </nav>
         </div>
@@ -120,7 +120,6 @@
         <h3 class="ues" id="text">Das Textelement</h3>
 
         <p>Es gibt verschiedene arten von Textelementen. Textelemente dienen der Strukturierung von Texten.</p>
-        </div>
 
         <dl>
             <dt>h1, h2, h3 usw.</dt>
@@ -147,7 +146,7 @@
 
         <h3 class="ues" id="list">Das Listenelement</h3>
 
-        <p>Es gibt verschiendene listentypen. Einmal hätten wir die ul. ul steht für unordered list. das bedeutet eine ungeordnete
+        <p>Es gibt verschiedene listentypen. Einmal hätten wir die ul. ul steht für unordered list. das bedeutet eine ungeordnete
             liste.
             <br /> Das bedeutet es ist eine Liste die keine fixe Reihenfolge macht. Das gegenteil davon ist die ol, die ordered
             list. Sie nummeriert die aufgelisteten Inhalte.<br /> Das System ist bei beiden gleich. Zuerst setzt man den
@@ -344,13 +343,13 @@
         <div id="lnk">
             <p>Ein Link auf einer Website wird grundsätzlich immer so eingesbettet:<br /> &lt;a href="http://www.linkinhtml.com">&lt;Hier
                 ist der Link/a&gt;<br /> Eingesetzt auf der Website sieht der Link wiefolgt aus.
-                <a id="hidl" href="http://www.linkinhtml.com"><br />Hier ist der Link</a><br /> Wie sie sehen, überschreibt
+                <a class="hidl" href="http://www.linkinhtml.com"><br />Hier ist der Link</a><br /> Wie sie sehen, überschreibt
                 der Link hier die momentan geöffnete Website.<br /> Dies kann aber verhindert werden, indem man target="_blank"
                 hinter die URl der Website setzt.<br /> &lt;a href="http://www.linkinhtml.com" target="_blank">&lt;Hier ist
                 der Link/a&gt;<br /> Hier sieht man diesen Link, wie er in der Website eingebettet ist.
-                <a id="hidl" href="http://www.linkinhtml.com" target="_blank"><br />Hier ist der Link</a><br /> Jetzt werden
-                sie bemerkt haben, falls sie auf diesen Link geklickt haben,<br /> dass der Link in einem neuen Tab aufgegangen
-                ist.
+                <a class="hidl" href="http://www.linkinhtml.com" target="_blank"><br />Hier ist der Link</a><br /> Jetzt
+                werden sie bemerkt haben, falls sie auf diesen Link geklickt haben,<br /> dass der Link in einem neuen Tab
+                aufgegangen ist.
                 <br /><br /> Hier sehen sie jetzt ein Beispiel für die Navigation. Diese Navigation habe ich auf dieser Website
                 verwendet.
                 <br /> Zuerst machen sie eine Überschrift. diese können sie z. B. mit dem h3-Element machen. Diesem h3-element
@@ -400,7 +399,6 @@
                 <td>Der Fussbereich gehört in das &lt;tfoot>-Element</td>
             </tr>
         </table>
-        </div>
 
         <h2 id="css">CSS</h2>
         <div class="uschrift">
@@ -429,19 +427,85 @@
             Der Wert zeigt an, wie sie es ändern möchten.<br /> Dies ist im obigen Bild sehr gut sichtbar.
         </p>
 
-
-
         <h3 class="ues" id="csse">CSS einbinden</h3>
-        <p>Um ein CSS-Dokument einzubinden, welches sie neben ihren HTML-files geöffnet haben, müssen sie folgendes tun.<br/>
-            Verlinken tut man es mit dem Element "link" im Head des HTML-Dokuments.<br />
-            Dies sieht folgendermassen aus:<br /><br />
-            &lt;link rel="stylesheet" href="style.css" type:"text/css"><br /><br />
-            Wichtig hier ist, dass sie den richtigen Ablageort bei href hineinschreiben, sonst findet das HTML-file das CSS-Dokument nicht,<br />
-            was dazuführt, dass sie sich nicht erkennen und verknüpfen können.<br />
-             Da das CSS-file im Beispiel im gleichen Ordner liegt wie das HTML-Dokument, wird hier nur der name des Dokuments angegeben.
+        <p>Um ein CSS-Dokument einzubinden, welches sie neben ihren HTML-files geöffnet haben, müssen sie folgendes tun.<br/>            Verlinken
+            tut man es mit dem Element "link" im Head des HTML-Dokuments.<br /> Dies sieht folgendermassen aus:<br /><br
+            /> &lt;link rel="stylesheet" href="style.css" type:"text/css"><br /><br /> Wichtig hier ist, dass sie den richtigen
+            Ablageort bei href hineinschreiben, sonst findet das HTML-file das CSS-Dokument nicht,<br /> was dazuführt, dass
+            sie sich nicht erkennen und verknüpfen können.<br /> Da das CSS-file im Beispiel im gleichen Ordner liegt wie
+            das HTML-Dokument, wird hier nur der name des Dokuments angegeben.
         </p>
 
+        <h3 class="ues" id="sel">CSS-Selektoren</h3>
+        <table>
+            <tr>
+                <th>Selektor</th>
+                <th>Bedeutung</th>
+                <th>Beispiel</th>
+            </tr>
+            <tr>
+                <th>Universalselektor</th>
+                <td>Gilt für alle Elemente im Dokument</td>
+                <td>* {}<br />Gilt für alle Elemente auf der Seite</td>
+            </tr>
+            <tr>
+                <th>Typselektor</th>
+                <td>Gilt für übereinstimmende Elementnamen</td>
+                <td>h1, h2, h3 {}<br />Gilt für &lt;h1>-, &lt;h2>- und &lt;h3>-Elemente</td>
+            </tr>
+            <tr>
+                <th>Klassenselektor</th>
+                <td>Gilt für Elemente, deren Attribut class einen Wert hat,<br /> der mit dem hinter dem Punkt angegebenen
+                    Wert übereinstimmt.</td>
+                <td>.note {}<br />Gilt für Elemente, deren class-Atribut den Wert note hat<br /><br /> p.note {}<br />Gilt
+                    nur für &lt;p>-Elemente, deren class-Attribut den Wert note hat</td>
+            </tr>
+            <tr>
+                <th>ID-Selektor</th>
+                <td>Gilt nur für Elemente, deren Attribut id einen Wert hat,<br /> der mit dem hinter dem Nummernsymbol angegebenen
+                    Wert übereinstimmt</td>
+                <td>#note {}<br /> Gilt für Elemente, deren ID-Attribut den Wert note hat</td>
+            </tr>
+            <tr>
+                <th>Kindselektor</th>
+                <td>Gilt für Elemente, die dem angegebenen Element unmittelbar untergeordnet sind</td>
+                <td>li>a {}<br /> Gilt für alle &lt;a>-Elemente, die Kinder eines &lt;li>-Elements sind<br /> (aber nicht
+                    für andere &lt;a>-Elemente auf der Seite)</td>
+            </tr>
+            <tr>
+                <th>Nachkommenselektor</th>
+                <td>Gilt für Elemente, die dem angegebenen Element untergeordnet sind<br /> (nicht nur direkt untergeordnete
+                    Elemente)
+                </td>
+                <td>p a {}<br /> Gilt für alle &lt;a>-Elemente innerhalb eines &lt;p>-Elements,<br /> auch wenn andere Elemente
+                    dazwischen verschachtelt sind</td>
+            </tr>
+            <tr>
+                <th>Selektor für Benachbarte Geschwister</th>
+                <td>Gilt für Elemente, die dem angegebenen Element direkt gleichgeordnet sind</td>
+                <td>h1+p {}<br /> Gilt für das erste &lt;p>-Element nach einem &lt;h1>-Element<br /> (aber nicht für andere
+                    &lt;p>-Elemente)
+                </td>
+            </tr>
+            <tr>
+                <th>Allgemeiner Geschwisterselektor</th>
+                <td>Gilt für Elemente, die dem angegebenen Element gleichgeordnet sind,<br /> auch wenn sie nicht direkt
+                    aufeinander folgen</td>
+                <td>h1~p {}<br /> Wenn sie zwei &lt;p>-Elemente haben, die Geschwister eines &lt;h1>-Elements sind,<br />                    
+                    gilt diese Regel für beide</td>
+            </tr>
+        </table>
+        <img id="cs" src="https://i.pinimg.com/originals/32/65/5c/32655cb58868cfe7b381c3fae10715e0.png" alt="cheatsheet">
+        <h3 class="ues" id="txt">Text in CSS formatieren</h3>
 
+        <img src="https://image.slidesharecdn.com/baustein07-grundlagen-html-css-php-140608070557-phpapp02/95/baustein-07-grundlagenhtmlcssphp-28-638.jpg?cb=1402211313"
+            alt="Schriften">
+            <p>In der Oberen Abbildung wird das System der Formatierung sehr gut aufgezeigt.<br />
+            Auf dem Unteren Bild sind verschiedene Schriftstärken abgebildet. Recht sind sie zusätzlich in einer anderen Schriftlage.<br />
+            Auf dem Bild im letzten Abschnitt sieht man einige der wichtigsten Eigenschaften im CSS<br />
+        mit dem hover-Selektor kann man z. B. eine Schrift formatieren, die auftritt, wenn sie mit der Maus in Berührung kommt</p>
+            <img id="schrift1" src="https://www.html-seminar.de/bilder/schriftschnitte.png" alt="Schriften">
+            
 
         <h3 class="ues" id="sart">Schriften mit Google Fonts einbinden</h3>
         <p>Eine Schrift über Google Fonts einzubinden, ist sehr einfach. Zuerst suchen sie sich eine Schriftart aus.<br />Dann
@@ -451,6 +515,8 @@
             im CSS einem Element zuteilen.
         </p>
 
+        <h3 class="ues" id="colr">Farben in CSS</h3>
+        <p></p>
 
 
         <h3 class="ues" id="flex">Flexbox</h3>
@@ -465,6 +531,7 @@
             <a href="http://flexboxdefense.com/" target="_blank">Für bereits gute Kenntnisse</a><br />
 
         </div>
+
 
     </main>
 
