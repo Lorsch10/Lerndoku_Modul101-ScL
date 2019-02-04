@@ -491,8 +491,8 @@
                 <th>Allgemeiner Geschwisterselektor</th>
                 <td>Gilt für Elemente, die dem angegebenen Element gleichgeordnet sind,<br /> auch wenn sie nicht direkt
                     aufeinander folgen</td>
-                <td>h1~p {}<br /> Wenn sie zwei &lt;p>-Elemente haben, die Geschwister eines &lt;h1>-Elements sind,<br />                    
-                    gilt diese Regel für beide</td>
+                <td>h1~p {}<br /> Wenn sie zwei &lt;p>-Elemente haben, die Geschwister eines &lt;h1>-Elements sind,<br />                    gilt
+                    diese Regel für beide</td>
             </tr>
         </table>
         <img id="cs" src="https://i.pinimg.com/originals/32/65/5c/32655cb58868cfe7b381c3fae10715e0.png" alt="cheatsheet">
@@ -500,12 +500,12 @@
 
         <img src="https://image.slidesharecdn.com/baustein07-grundlagen-html-css-php-140608070557-phpapp02/95/baustein-07-grundlagenhtmlcssphp-28-638.jpg?cb=1402211313"
             alt="Schriften">
-            <p>In der Oberen Abbildung wird das System der Formatierung sehr gut aufgezeigt.<br />
-            Auf dem Unteren Bild sind verschiedene Schriftstärken abgebildet. Recht sind sie zusätzlich in einer anderen Schriftlage.<br />
-            Auf dem Bild im letzten Abschnitt sieht man einige der wichtigsten Eigenschaften im CSS<br />
-        mit dem hover-Selektor kann man z. B. eine Schrift formatieren, die auftritt, wenn sie mit der Maus in Berührung kommt</p>
-            <img id="schrift1" src="https://www.html-seminar.de/bilder/schriftschnitte.png" alt="Schriften">
-            
+        <p>In der Oberen Abbildung wird das System der Formatierung sehr gut aufgezeigt.<br /> Auf dem Unteren Bild sind
+            verschiedene Schriftstärken abgebildet. Recht sind sie zusätzlich in einer anderen Schriftlage.<br /> Auf dem
+            Bild im letzten Abschnitt sieht man einige der wichtigsten Eigenschaften im CSS<br /> mit dem hover-Selektor
+            kann man z. B. eine Schrift formatieren, die auftritt, wenn sie mit der Maus in Berührung kommt</p>
+        <img id="schrift1" src="https://www.html-seminar.de/bilder/schriftschnitte.png" alt="Schriften">
+
 
         <h3 class="ues" id="sart">Schriften mit Google Fonts einbinden</h3>
         <p>Eine Schrift über Google Fonts einzubinden, ist sehr einfach. Zuerst suchen sie sich eine Schriftart aus.<br />Dann
@@ -516,7 +516,70 @@
         </p>
 
         <h3 class="ues" id="colr">Farben in CSS</h3>
-        <p></p>
+        <p>Farben gibt man in CSS immer mit dem Objekt an, ausser bei der Schriftfarbe.<br /> Um die Farbe des Hintergrundes
+            zu ändern gibt man also folgendes ein:<br /><br /> background: black;<br />oder<br /> text-decoration: green;<br
+            /><br /> die Ausnahme ist wie bereits erwähnt die Schrift. Diese wird mit color angegeben:<br /> color: blue;<br
+            /><br /> Die Farben, die mit Namen erwähnt sind, sind sehr begrenzt in der Anzahl. Es gibt nur 147 davon.<br
+            /> Daher kann man die Farben auch mit RGB, RGBA (RGB einfach mit Transparenzangabe) und Hexadezimal.<br /> Ich
+            persönlich nehme mir immer eine Farbe mit Name und gehe diese dann Per klick auf die Farbe bearbeiten.<br />            Die
+            Transparenz kann, wie oben erwähnt, mit RGBA oder auch mit oiacity angegeben werden.<br /> Beide dieser Angaben
+            werden aber bis jetzt nur von den neuen Browsern wie gewünscht verarbeitet.<br /> Bei den Alten Browsern wird
+            also nur der Farbwert erkannt, was im unten Folgendem Beispiel schwarz ist, erkannt.<br /><br />
+            <div id="f1">Opacity</div>
+            <div id="f2">RGBA</div>
+            Im CSS geschrieben sieht es so aus:<br /><br /> #f1 {<br /> padding: 30px;<br /> background: rgb(0, 0, 0);<br
+            /> opacity: 0.5;<br /> color: white;<br /> margin-bottom: 20px; <br /> }
+            <br /><br /> #f2 {<br /> padding: 30px;<br /> background: rgb(0, 0, 0);<br /> background: rgba(0, 0, 0, 0.5);
+            <br /> color: white;<br /> margin-bottom: 20px;<br /> }
+            <br /><br />
+
+        </p>
+
+        <h3 class="ues" id="kstn">Kästen</h3>
+        <dl>
+            <dt>width, height</dt>
+            <dd>Hiermit können sie die exakte Grösse eines Kastens angeben.</dd>
+
+            <dt>min-width, max-width</dt>
+            <dd>Diese Eigenschaften sind erst seit dem IE7 und Firefox2 verfügbar.<br /> Mit diesen gibt man die midest- bzw.
+                die maximalbreite eines Kastens an</dd>
+
+            <dt>min-height, max-height</dt>
+            <dd>Ist dasselbe wie das obige, einfach für die Höhe anstelle der Breite</dd>
+            <dd>falls sich die Kästen überschneiden, gibt Overflow an was zu tun ist<br />
+            Bei overflow gibt es dafür zwei Möglichkeiten:<br />
+            Scroll und hidden. Diese sind selbsterklärend</dd>
+
+            <dt>border-width</dt>
+            <dd>mit border-width kann die Rahmendicke angegeben werden.<br /> Die Reihenfolge der Seiten ist genau wie der Kompass. NOSW.
+            </dd>
+
+            <dt>border-style</dt>
+            <dd>Mit border-style kann man die Randart ändern. dafür gibt es folgende Möglichkeiten:</dd>
+            <dd>solid</dd>
+            <dd>dotted</dd>
+            <dd>dashed</dd>
+            <dd>double</dd>
+            <dd>groove</dd>
+            <dd>ridge</dd>
+            <dd>inset</dd>
+            <dd>outset</dd>
+            <dd>Auch hier gilt, dass dies für jede Seite gemacht werden kann. Dies auch wieder nach NOSW</dd>
+            
+            <dt>border-color</dt>
+            <dd>Ist durch den Namen selbsterklärend. Auch hier gilt, jede einzelne Seite ist einzel ansprechbar.</dd>
+
+            <dt>border</dt>
+            <dd>In border können sie Breite, Art und Farbe mit einer einzigen Eigenschaft bestimmen. Es muss aber diese Reihenfolge haben.</dd>
+
+            <dt>padding</dt>
+            <dd>mit padding definieren sie den Abstand zwischen dem Element und seinem Rahmen.</dd>
+
+            <dt>margin</dt>
+            <dd>margin definiert den Abstand vom Rahmen bis zum näachsten Objekt.</dd>
+
+            
+        </dl>
 
 
         <h3 class="ues" id="flex">Flexbox</h3>
