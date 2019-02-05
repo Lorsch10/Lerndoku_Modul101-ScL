@@ -159,6 +159,39 @@ h3 {
     font-size: 36px;
 }
 
+
+#auto {
+    cursor: auto;
+}
+
+#crsh {
+    cursor: crosshair;
+}
+
+#dflt {
+    cursor: default;
+}
+
+#pntr {
+    cursor: pointer;
+}
+
+#move {
+    cursor: move;
+}
+
+#text {
+    cursor: text;
+}
+
+#wait {
+    cursor: wait;
+}
+
+#help {
+    cursor: help;
+}
+
 footer {
     margin: 0;
 }
@@ -231,6 +264,7 @@ dt, dd {
 #fx:hover {
     color: black;
 }
+
 #f1 {
     padding: 30px;
     background: rgb(0, 0, 0);
