@@ -1,0 +1,331 @@
+h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+
+.navi li {
+    display: inline;
+    padding: 20px 60px;
+    background-color: rgb(121, 38, 38);
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou';
+    margin: 12px;
+    font-size: 26px;
+}
+.navi li:hover{
+    background-color: black;
+}
+
+h2 {
+    font-size: 37px;
+    font-weight: bolder;
+    font-family: 'ZCOOL QingKe HuangYou';
+    display: flex;
+    justify-content: center;
+    padding-top: 125px;
+    text-decoration: none;
+    color: black;
+}
+
+.uschrift {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou';
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+#cs {
+    margin-top: 22px;
+}
+
+.wie {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 19px;
+}
+
+#lee {
+    float: right;
+    margin: 50px 0 0 0;
+}
+
+pics {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    color: rgb(35, 156, 71);
+    font-size: 28px;
+}
+
+.navi li:hover {
+    color: rgb(35, 156, 71);
+}
+
+div :hover {
+    color: rgb(35, 156, 71);
+}
+
+.p:hover {
+    color: black;
+}
+
+.navi a {
+    color: white;
+}
+
+.navi a:hover {
+    color: rgb(35, 156, 71)
+}
+
+li :hover {
+    color: rgb(35, 156, 71);
+}
+
+body {
+    background: url(https://cdn.pixabay.com/photo/2014/01/23/21/33/blue-250770__340.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.gs:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(35, 156, 71);
+    font-size: 20px;
+}
+tr {
+    background-color: rgb(35, 156, 71);
+}
+td {
+    border: 3px solid black;
+    color: black; 
+}
+th {
+    border: 3px solid black;
+    color: black;
+}
+table:hover{
+ color: black;
+}
+table {
+    border-collapse: collapse;
+    
+}
+#ele {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    margin: 20px 0;
+}
+td:hover{
+    color: black;
+}
+th:hover{
+    color: black;
+}
+
+h2:hover{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.gs {
+    text-decoration: underline;
+}
+
+
+h3 {
+    padding-top: 125px;
+    color: rgb(35, 156, 71);
+    font-size: 30px;
+}
+
+
+#auto {
+    cursor: auto;
+}
+
+#crsh {
+    cursor: crosshair;
+}
+
+#dflt {
+    cursor: default;
+}
+
+#pntr {
+    cursor: pointer;
+}
+
+#move {
+    cursor: move;
+}
+
+#txtm {
+    cursor: text;
+}
+
+#wait {
+    cursor: wait;
+}
+
+#help {
+    cursor: help;
+}
+
+footer {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    background: rgb(35, 156, 71);
+    z-index: 5;
+}
+
+.sm {
+    width: 584px;
+    height: auto;
+}
+main {
+    padding-top: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 19px;
+    padding-bottom: 25px;
+    background-color:rgba(168, 148, 148, 0.336);
+}
+#lnk a {
+    display: flex;
+    justify-content: center;
+}
+#lnk p:hover{
+    color: black;
+}
+
+#ado {
+    z-index: 3;
+}
+#tiga {
+    border: 15px;
+    border-style: outset;
+}
+
+ol li {
+    padding: 0;
+    background: transparent;
+    font-size: 22px;
+}
+.hidl {
+    color: blue;
+    text-decoration: underline;
+}
+
+dt {
+    font-size: 19px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#end {
+    margin-bottom: 1500px;
+}
+
+dt, dd {
+    margin: 9px;
+}
+#schrift1 {
+    width: 638px;
+    height: auto;
+    padding-top: 5px;
+}
+.lk a {
+    text-decoration: underline;
+}
+
+.lk a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(35, 156, 71);
+    font-size: 20px;
+}
+#fx:hover {
+    color: black;
+}
+
+#f1 {
+    padding: 30px;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    color: white;
+    margin-bottom: 20px; 
+}
+#f2 {
+    padding: 30px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    margin-bottom: 20px;
+}
+#box {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border: 10px;
+    border-style: double;
+    padding: 15px;
+    background-color: rgb(35, 156, 71);
+}
+
+@media (max-width: 1572px) {
+    .navi li {
+        padding: 10px 38px;
+    }
+    h2, h3 {
+        padding-top: 450px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        padding-top: 275px;
+    }
+}
+@media (max-width: 883px) {
+    .navi li {
+        display: block;
+        padding: 6px 28px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
