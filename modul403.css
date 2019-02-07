@@ -7,10 +7,31 @@ padding: 15px 0;
 }
 body {
     font-family: 'Ubuntu';
+    color: black;
+    background-color: rgb(202, 202, 177);
 }
 #title {
     background-color: rgb(89, 127, 160);
+    margin-bottom: 0px;
 }
-#nav li{
-    display: inline;
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(89, 127, 160);
+    font-size: 150%;    
+}
+.txt {
+    display: flex;
+    width: 50%;
+    height: auto,
+}
+#back {
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    color: black;
+}
+#platz {
+    text-align: center;
 }
