@@ -18,12 +18,14 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(89, 127, 160);
-    font-size: 150%;    
+    font-size: 150%;
 }
-.txt {
+p {
     display: flex;
-    width: 50%;
-    height: auto,
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 125%;
+
 }
 #back {
     display: flex;
@@ -32,6 +34,23 @@ body {
 a {
     color: black;
 }
-#platz {
+.platz {
     text-align: center;
+    margin-top: 40px;
+}
+#mm {
+    margin-top: 150px;
+}
+#dreh {
+    color: green;
+    font-size: 185%;
+}
+ul {
+    margin-top: 65px;
+    font-size: 145%;
+    list-style: none;
+}
+#vg {
+    display: flex;
+    justify-content: center;
 }
