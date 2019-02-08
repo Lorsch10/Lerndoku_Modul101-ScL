@@ -54,3 +54,18 @@ ul {
     display: flex;
     justify-content: center;
 }
+#gold {
+    background-color: #351C15;
+    font-weight: bolder;
+    font-size: 150%;
+    color: #FFB500;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#marketing {
+    width: 60%;
+    height: auto;
+}
