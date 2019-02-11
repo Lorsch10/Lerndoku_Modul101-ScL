@@ -69,3 +69,18 @@ ul {
     width: 60%;
     height: auto;
 }
+.platz p {
+    text-align: left;
+}
+strong {
+    font-size: 135%;
+}
+.platz a {
+    
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: flex;
+    justify-content: center;
+}
